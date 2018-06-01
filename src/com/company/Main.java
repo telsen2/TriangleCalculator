@@ -12,31 +12,31 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-          int lenght1 =0;
-          int lenght2 = 0;
-          int lenght3 = 0;
+         // int len1 = 0;   // using len for 'lenght'//
+         // int len2 = 0;
+         // int len3 = 0;
         Scanner keyboard = new Scanner(System.in);
         System.out.println("enter the lenght for side a: ");
-        int length1 = keyboard.nextInt();
+        int len1 = keyboard.nextInt();
         keyboard.nextLine();
 
         System.out.println("enter the lenght for side b: ");
-        int length2 = keyboard.nextInt();
+        int len2 = keyboard.nextInt();
         keyboard.nextLine();
 
         System.out.println("enter the lenght for side c: ");
-        int length3 = keyboard.nextInt();
+        int len3 = keyboard.nextInt();
         keyboard.nextLine();
 
 
-        if (lenght1 == lenght2 && lenght2 == lenght3 && lenght1 == lenght3) {
-            System.out.println(" The lenght of side a is " + length1);
-            System.out.println(" The lenght of side b is " + length2);
-            System.out.println(" The lenght of side c is " + length3);
-            System.out.println(lenght2 == lenght3);
+        if (len1 == len2 && len2 == len3 && len1 == len3) {
+            System.out.println(" The lenght of side a is " + len1);
+            System.out.println(" The lenght of side b is " + len2);
+            System.out.println(" The lenght of side c is " + len3);
+            System.out.println(len2 == len3);
                  triangle = "equilateral";
              }
-         else if(( lenght1 * lenght1) == (lenght2 *lenght2) + (lenght3 *lenght3))
+         else if(( len1 * len1) == (len2 *len2) + (len3 *len3))
                 {
                 triangle = "right triangle";
                 }
